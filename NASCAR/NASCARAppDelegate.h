@@ -12,13 +12,14 @@
 @class VideoVC;
 
 @interface NASCARAppDelegate : NSObject <UIApplicationDelegate> {
-
+    
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UISplitViewController *mySplitVC;
 @property (nonatomic, retain) IBOutlet RootVC *myRootVC;
 @property (nonatomic, retain) IBOutlet VideoVC *myVideoVC;
+@property (nonatomic, retain) IBOutlet UIViewController *theSplashVC;
 
 - (void)dataReceived;
 

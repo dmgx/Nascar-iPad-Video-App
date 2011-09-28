@@ -20,6 +20,7 @@
 @synthesize mySplitVC = _mySplitVC;
 @synthesize myRootVC = _myRootVC;
 @synthesize myVideoVC = _myVideoVC;
+@synthesize theSplashVC = _theSplashVC;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -45,6 +46,22 @@
     // Add the split view controller's view to the window and display.
     self.window.rootViewController = self.mySplitVC;
     [self.window makeKeyAndVisible];
+    
+    // add the splash IV to the window per the current orientation
+    [self.window addSubview:self.theSplashVC.view];
+    [UIView animateWithDuration:0.25f
+                          delay:2.0f
+                        options:UIViewAnimationOptionTransitionNone
+                     animations:^{
+                         self.theSplashVC.view.frame = CGRectMake(-(self.theSplashVC.view.frame.size.width/2), -(self.theSplashVC.view.frame.size.height/2), self.theSplashVC.view.frame.size.width*2, self.theSplashVC.view.frame.size.height*2);
+                         self.theSplashVC.view.alpha = 0.0;
+                     }
+                     completion:^(BOOL finished) {
+                         [self.theSplashVC.view removeFromSuperview];
+                         [self.theSplashVC release];
+                     }];
+
+
     return YES;
 }
 
@@ -89,6 +106,7 @@
     [_mySplitVC release];
     [_myRootVC release];
     [_myVideoVC release];
+    [_theSplashVC release];
     [super dealloc];
 }
 
