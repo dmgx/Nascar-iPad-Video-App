@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8113E961417CDB3008C2952 /* Icon-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = B8113E931417CDB3008C2952 /* Icon-settings.png */; };
+		B8113E971417CDB3008C2952 /* Icon-spot~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8113E941417CDB3008C2952 /* Icon-spot~ipad.png */; };
+		B8113E981417CDB3008C2952 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B8113E951417CDB3008C2952 /* Icon.png */; };
+		B8113EA41417D123008C2952 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8113EA21417D123008C2952 /* Default-Landscape~ipad.png */; };
+		B8113EA51417D123008C2952 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8113EA31417D123008C2952 /* Default-Portrait~ipad.png */; };
+		B83A99C114117219001DDFE5 /* default_header_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = B83A99C014117219001DDFE5 /* default_header_banner.png */; };
+		B86B03B113F9BEAF0002BEB0 /* MyDataSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B86B03B013F9BEAF0002BEB0 /* MyDataSingleton.m */; };
+		B86B03B413F9BEBD0002BEB0 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B86B03B313F9BEBD0002BEB0 /* XMLParser.m */; };
+		B86B03CA13F9D2F30002BEB0 /* Videos.m in Sources */ = {isa = PBXBuildFile; fileRef = B86B03C913F9D2F30002BEB0 /* Videos.m */; };
+		B86B03D213FA9CCF0002BEB0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86B03D113FA9CCF0002BEB0 /* SystemConfiguration.framework */; };
+		B88C4FF813FAAA430080A7A4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C4FF513FAAA430080A7A4 /* MBProgressHUD.m */; };
+		B88C4FF913FAAA430080A7A4 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B88C4FF713FAAA430080A7A4 /* Reachability.m */; };
+		B88C500413FAB72B0080A7A4 /* Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B88C500313FAB72B0080A7A4 /* Icon~ipad.png */; };
+		B8BFABA013EBF3FC00AC9464 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BFAB9F13EBF3FC00AC9464 /* UIKit.framework */; };
+		B8BFABA213EBF3FC00AC9464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BFABA113EBF3FC00AC9464 /* Foundation.framework */; };
+		B8BFABA413EBF3FC00AC9464 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BFABA313EBF3FC00AC9464 /* CoreGraphics.framework */; };
+		B8BFABA613EBF3FC00AC9464 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BFABA513EBF3FC00AC9464 /* CoreData.framework */; };
+		B8BFABAC13EBF3FD00AC9464 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8BFABAA13EBF3FC00AC9464 /* InfoPlist.strings */; };
+		B8BFABAF13EBF3FD00AC9464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFABAE13EBF3FD00AC9464 /* main.m */; };
+		B8BFABB213EBF3FD00AC9464 /* NASCARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFABB113EBF3FD00AC9464 /* NASCARAppDelegate.m */; };
+		B8BFABB813EBF3FD00AC9464 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BFABB613EBF3FD00AC9464 /* MainWindow.xib */; };
+		B8BFABBB13EBF3FD00AC9464 /* VideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFABBA13EBF3FD00AC9464 /* VideoVC.m */; };
+		B8BFABC113EBF3FD00AC9464 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFABC013EBF3FD00AC9464 /* RootVC.m */; };
+		B8BFAC1E13EC661D00AC9464 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8BFAC1D13EC661D00AC9464 /* MediaPlayer.framework */; };
+		B8BFAC2E13EC875300AC9464 /* NASCAR-Prefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8BFAC2D13EC875300AC9464 /* NASCAR-Prefs.plist */; };
+		B8BFAC5813EC8F7500AC9464 /* FetchData.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC3713EC8F7500AC9464 /* FetchData.m */; };
+		B8BFAC5913EC8F7500AC9464 /* FetchDataPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC3913EC8F7500AC9464 /* FetchDataPackage.m */; };
+		B8BFAC5B13EC8F7500AC9464 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC4013EC8F7500AC9464 /* NSObject+SBJson.m */; };
+		B8BFAC5C13EC8F7500AC9464 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC4313EC8F7500AC9464 /* SBJsonParser.m */; };
+		B8BFAC5D13EC8F7500AC9464 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC4513EC8F7500AC9464 /* SBJsonStreamParser.m */; };
+		B8BFAC5E13EC8F7500AC9464 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC4713EC8F7500AC9464 /* SBJsonStreamParserAccumulator.m */; };
+		B8BFAC5F13EC8F7500AC9464 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC4913EC8F7500AC9464 /* SBJsonStreamParserAdapter.m */; };
+		B8BFAC6013EC8F7500AC9464 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC4B13EC8F7500AC9464 /* SBJsonStreamParserState.m */; };
+		B8BFAC6113EC8F7500AC9464 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC4D13EC8F7500AC9464 /* SBJsonStreamWriter.m */; };
+		B8BFAC6213EC8F7500AC9464 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC4F13EC8F7500AC9464 /* SBJsonStreamWriterAccumulator.m */; };
+		B8BFAC6313EC8F7500AC9464 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC5113EC8F7500AC9464 /* SBJsonStreamWriterState.m */; };
+		B8BFAC6413EC8F7500AC9464 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC5313EC8F7500AC9464 /* SBJsonTokeniser.m */; };
+		B8BFAC6513EC8F7500AC9464 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC5513EC8F7500AC9464 /* SBJsonUTF8Stream.m */; };
+		B8BFAC6613EC8F7500AC9464 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC5713EC8F7500AC9464 /* SBJsonWriter.m */; };
+		B8BFAC7713ECB4F700AC9464 /* VideoTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC7613ECB4F700AC9464 /* VideoTVCell.m */; };
+		B8BFAC8113ECBA0600AC9464 /* VideoTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BFAC8013ECBA0500AC9464 /* VideoTVCell.xib */; };
+		B8BFACA513ED533200AC9464 /* Conveniences.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFAC9E13ED533200AC9464 /* Conveniences.m */; };
+		B8BFACA613ED533200AC9464 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFACA013ED533200AC9464 /* NSData+Base64.m */; };
+		B8BFACA713ED533200AC9464 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFACA213ED533200AC9464 /* UIColor-Expanded.m */; };
+		B8BFACA813ED533200AC9464 /* UILabel+ResizeHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BFACA413ED533200AC9464 /* UILabel+ResizeHeight.m */; };
+		B8CF2CD813F1A40D0065576E /* VideoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8CF2CD713F1A40D0065576E /* VideoVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8113E931417CDB3008C2952 /* Icon-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-settings.png"; sourceTree = "<group>"; };
+		B8113E941417CDB3008C2952 /* Icon-spot~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-spot~ipad.png"; sourceTree = "<group>"; };
+		B8113E951417CDB3008C2952 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B8113EA21417D123008C2952 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		B8113EA31417D123008C2952 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		B83A99C014117219001DDFE5 /* default_header_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_header_banner.png; sourceTree = "<group>"; };
+		B86B03AF13F9BEAF0002BEB0 /* MyDataSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataSingleton.h; sourceTree = "<group>"; };
+		B86B03B013F9BEAF0002BEB0 /* MyDataSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataSingleton.m; sourceTree = "<group>"; };
+		B86B03B213F9BEBD0002BEB0 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		B86B03B313F9BEBD0002BEB0 /* XMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		B86B03C813F9D2F30002BEB0 /* Videos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Videos.h; sourceTree = "<group>"; };
+		B86B03C913F9D2F30002BEB0 /* Videos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Videos.m; sourceTree = "<group>"; };
+		B86B03D113FA9CCF0002BEB0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B88C4FF413FAAA430080A7A4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = NASCAR/Misc/MBProgressHUD.h; sourceTree = "<group>"; };
+		B88C4FF513FAAA430080A7A4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = NASCAR/Misc/MBProgressHUD.m; sourceTree = "<group>"; };
+		B88C4FF613FAAA430080A7A4 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = NASCAR/Misc/Reachability.h; sourceTree = "<group>"; };
+		B88C4FF713FAAA430080A7A4 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = NASCAR/Misc/Reachability.m; sourceTree = "<group>"; };
+		B88C500313FAB72B0080A7A4 /* Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon~ipad.png"; sourceTree = "<group>"; };
+		B8BFAB9B13EBF3FC00AC9464 /* NASCAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASCAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8BFAB9F13EBF3FC00AC9464 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8BFABA113EBF3FC00AC9464 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8BFABA313EBF3FC00AC9464 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8BFABA513EBF3FC00AC9464 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B8BFABA913EBF3FC00AC9464 /* NASCAR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NASCAR-Info.plist"; sourceTree = "<group>"; };
+		B8BFABAB13EBF3FD00AC9464 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8BFABAD13EBF3FD00AC9464 /* NASCAR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NASCAR-Prefix.pch"; sourceTree = "<group>"; };
+		B8BFABAE13EBF3FD00AC9464 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8BFABB013EBF3FD00AC9464 /* NASCARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NASCARAppDelegate.h; sourceTree = "<group>"; };
+		B8BFABB113EBF3FD00AC9464 /* NASCARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NASCARAppDelegate.m; sourceTree = "<group>"; };
+		B8BFABB713EBF3FD00AC9464 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B8BFABB913EBF3FD00AC9464 /* VideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoVC.h; sourceTree = "<group>"; };
+		B8BFABBA13EBF3FD00AC9464 /* VideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoVC.m; sourceTree = "<group>"; };
+		B8BFABBF13EBF3FD00AC9464 /* RootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		B8BFABC013EBF3FD00AC9464 /* RootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		B8BFAC1D13EC661D00AC9464 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		B8BFAC2D13EC875300AC9464 /* NASCAR-Prefs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NASCAR-Prefs.plist"; sourceTree = "<group>"; };
+		B8BFAC3613EC8F7500AC9464 /* FetchData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchData.h; sourceTree = "<group>"; };
+		B8BFAC3713EC8F7500AC9464 /* FetchData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchData.m; sourceTree = "<group>"; };
+		B8BFAC3813EC8F7500AC9464 /* FetchDataPackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchDataPackage.h; sourceTree = "<group>"; };
+		B8BFAC3913EC8F7500AC9464 /* FetchDataPackage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchDataPackage.m; sourceTree = "<group>"; };
+		B8BFAC3E13EC8F7500AC9464 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		B8BFAC3F13EC8F7500AC9464 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		B8BFAC4013EC8F7500AC9464 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		B8BFAC4113EC8F7500AC9464 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		B8BFAC4213EC8F7500AC9464 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		B8BFAC4313EC8F7500AC9464 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		B8BFAC4413EC8F7500AC9464 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		B8BFAC4513EC8F7500AC9464 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		B8BFAC4613EC8F7500AC9464 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		B8BFAC4713EC8F7500AC9464 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		B8BFAC4813EC8F7500AC9464 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		B8BFAC4913EC8F7500AC9464 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		B8BFAC4A13EC8F7500AC9464 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		B8BFAC4B13EC8F7500AC9464 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		B8BFAC4C13EC8F7500AC9464 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		B8BFAC4D13EC8F7500AC9464 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		B8BFAC4E13EC8F7500AC9464 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		B8BFAC4F13EC8F7500AC9464 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		B8BFAC5013EC8F7500AC9464 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		B8BFAC5113EC8F7500AC9464 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		B8BFAC5213EC8F7500AC9464 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		B8BFAC5313EC8F7500AC9464 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		B8BFAC5413EC8F7500AC9464 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		B8BFAC5513EC8F7500AC9464 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		B8BFAC5613EC8F7500AC9464 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		B8BFAC5713EC8F7500AC9464 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		B8BFAC7513ECB4F600AC9464 /* VideoTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTVCell.h; sourceTree = "<group>"; };
+		B8BFAC7613ECB4F700AC9464 /* VideoTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTVCell.m; sourceTree = "<group>"; };
+		B8BFAC8013ECBA0500AC9464 /* VideoTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoTVCell.xib; sourceTree = "<group>"; };
+		B8BFAC9D13ED533200AC9464 /* Conveniences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conveniences.h; path = NASCAR/Misc/Conveniences.h; sourceTree = "<group>"; };
+		B8BFAC9E13ED533200AC9464 /* Conveniences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conveniences.m; path = NASCAR/Misc/Conveniences.m; sourceTree = "<group>"; };
+		B8BFAC9F13ED533200AC9464 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "NASCAR/Misc/NSData+Base64.h"; sourceTree = "<group>"; };
+		B8BFACA013ED533200AC9464 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "NASCAR/Misc/NSData+Base64.m"; sourceTree = "<group>"; };
+		B8BFACA113ED533200AC9464 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor-Expanded.h"; path = "NASCAR/Misc/UIColor-Expanded.h"; sourceTree = "<group>"; };
+		B8BFACA213ED533200AC9464 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor-Expanded.m"; path = "NASCAR/Misc/UIColor-Expanded.m"; sourceTree = "<group>"; };
+		B8BFACA313ED533200AC9464 /* UILabel+ResizeHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UILabel+ResizeHeight.h"; path = "NASCAR/Misc/UILabel+ResizeHeight.h"; sourceTree = "<group>"; };
+		B8BFACA413ED533200AC9464 /* UILabel+ResizeHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UILabel+ResizeHeight.m"; path = "NASCAR/Misc/UILabel+ResizeHeight.m"; sourceTree = "<group>"; };
+		B8CF2CD713F1A40D0065576E /* VideoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8BFAB9813EBF3FC00AC9464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86B03D213FA9CCF0002BEB0 /* SystemConfiguration.framework in Frameworks */,
+				B8BFAC1E13EC661D00AC9464 /* MediaPlayer.framework in Frameworks */,
+				B8BFABA013EBF3FC00AC9464 /* UIKit.framework in Frameworks */,
+				B8BFABA213EBF3FC00AC9464 /* Foundation.framework in Frameworks */,
+				B8BFABA413EBF3FC00AC9464 /* CoreGraphics.framework in Frameworks */,
+				B8BFABA613EBF3FC00AC9464 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B86B03AE13F9BE7E0002BEB0 /* XML Data Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				B86B03AF13F9BEAF0002BEB0 /* MyDataSingleton.h */,
+				B86B03B013F9BEAF0002BEB0 /* MyDataSingleton.m */,
+				B86B03C813F9D2F30002BEB0 /* Videos.h */,
+				B86B03C913F9D2F30002BEB0 /* Videos.m */,
+				B86B03B213F9BEBD0002BEB0 /* XMLParser.h */,
+				B86B03B313F9BEBD0002BEB0 /* XMLParser.m */,
+			);
+			name = "XML Data Stuff";
+			sourceTree = "<group>";
+		};
+		B88C500213FAB72B0080A7A4 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B8113E931417CDB3008C2952 /* Icon-settings.png */,
+				B8113E941417CDB3008C2952 /* Icon-spot~ipad.png */,
+				B8113E951417CDB3008C2952 /* Icon.png */,
+				B88C500313FAB72B0080A7A4 /* Icon~ipad.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		B897D12013F0028300F1B06D /* RootVC (left) */ = {
+			isa = PBXGroup;
+			children = (
+				B8BFABBF13EBF3FD00AC9464 /* RootVC.h */,
+				B8BFABC013EBF3FD00AC9464 /* RootVC.m */,
+				B8BFAC7513ECB4F600AC9464 /* VideoTVCell.h */,
+				B8BFAC7613ECB4F700AC9464 /* VideoTVCell.m */,
+				B8BFAC8013ECBA0500AC9464 /* VideoTVCell.xib */,
+			);
+			name = "RootVC (left)";
+			sourceTree = "<group>";
+		};
+		B897D12213F0029E00F1B06D /* VideoVC (right) */ = {
+			isa = PBXGroup;
+			children = (
+				B8BFABB913EBF3FD00AC9464 /* VideoVC.h */,
+				B8BFABBA13EBF3FD00AC9464 /* VideoVC.m */,
+				B8CF2CD713F1A40D0065576E /* VideoVC.xib */,
+			);
+			name = "VideoVC (right)";
+			sourceTree = "<group>";
+		};
+		B8BFAB9013EBF3FC00AC9464 = {
+			isa = PBXGroup;
+			children = (
+				B8BFABA713EBF3FC00AC9464 /* NASCAR */,
+				B8BFABD813EC5A5800AC9464 /* Data */,
+				B8BFAC8813ED50A500AC9464 /* Misc */,
+				B8BFABA813EBF3FC00AC9464 /* Supporting Files */,
+				B8BFAC2813EC73AB00AC9464 /* Assets */,
+				B8BFAB9E13EBF3FC00AC9464 /* Frameworks */,
+				B8BFAB9C13EBF3FC00AC9464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8BFAB9C13EBF3FC00AC9464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8BFAB9B13EBF3FC00AC9464 /* NASCAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8BFAB9E13EBF3FC00AC9464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B86B03D113FA9CCF0002BEB0 /* SystemConfiguration.framework */,
+				B8BFAC1D13EC661D00AC9464 /* MediaPlayer.framework */,
+				B8BFAB9F13EBF3FC00AC9464 /* UIKit.framework */,
+				B8BFABA113EBF3FC00AC9464 /* Foundation.framework */,
+				B8BFABA313EBF3FC00AC9464 /* CoreGraphics.framework */,
+				B8BFABA513EBF3FC00AC9464 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8BFABA713EBF3FC00AC9464 /* NASCAR */ = {
+			isa = PBXGroup;
+			children = (
+				B8BFABB013EBF3FD00AC9464 /* NASCARAppDelegate.h */,
+				B8BFABB113EBF3FD00AC9464 /* NASCARAppDelegate.m */,
+				B8BFABB613EBF3FD00AC9464 /* MainWindow.xib */,
+				B897D12013F0028300F1B06D /* RootVC (left) */,
+				B897D12213F0029E00F1B06D /* VideoVC (right) */,
+			);
+			path = NASCAR;
+			sourceTree = "<group>";
+		};
+		B8BFABA813EBF3FC00AC9464 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8BFAC2D13EC875300AC9464 /* NASCAR-Prefs.plist */,
+				B8BFABA913EBF3FC00AC9464 /* NASCAR-Info.plist */,
+				B8BFABAA13EBF3FC00AC9464 /* InfoPlist.strings */,
+				B8BFABAD13EBF3FD00AC9464 /* NASCAR-Prefix.pch */,
+				B8BFABAE13EBF3FD00AC9464 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = NASCAR;
+			sourceTree = "<group>";
+		};
+		B8BFABD813EC5A5800AC9464 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B86B03AE13F9BE7E0002BEB0 /* XML Data Stuff */,
+				B8BFAC3513EC8F7500AC9464 /* Async REST */,
+				B8BFAC3D13EC8F7500AC9464 /* JSON */,
+			);
+			name = Data;
+			path = NASCAR;
+			sourceTree = "<group>";
+		};
+		B8BFAC2813EC73AB00AC9464 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B8113EA21417D123008C2952 /* Default-Landscape~ipad.png */,
+				B8113EA31417D123008C2952 /* Default-Portrait~ipad.png */,
+				B83A99C014117219001DDFE5 /* default_header_banner.png */,
+				B88C500213FAB72B0080A7A4 /* Icons */,
+			);
+			name = Assets;
+			path = NASCAR/Assets;
+			sourceTree = "<group>";
+		};
+		B8BFAC3513EC8F7500AC9464 /* Async REST */ = {
+			isa = PBXGroup;
+			children = (
+				B8BFAC3613EC8F7500AC9464 /* FetchData.h */,
+				B8BFAC3713EC8F7500AC9464 /* FetchData.m */,
+				B8BFAC3813EC8F7500AC9464 /* FetchDataPackage.h */,
+				B8BFAC3913EC8F7500AC9464 /* FetchDataPackage.m */,
+			);
+			path = "Async REST";
+			sourceTree = "<group>";
+		};
+		B8BFAC3D13EC8F7500AC9464 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B8BFAC3E13EC8F7500AC9464 /* JSON.h */,
+				B8BFAC3F13EC8F7500AC9464 /* NSObject+SBJson.h */,
+				B8BFAC4013EC8F7500AC9464 /* NSObject+SBJson.m */,
+				B8BFAC4113EC8F7500AC9464 /* SBJson.h */,
+				B8BFAC4213EC8F7500AC9464 /* SBJsonParser.h */,
+				B8BFAC4313EC8F7500AC9464 /* SBJsonParser.m */,
+				B8BFAC4413EC8F7500AC9464 /* SBJsonStreamParser.h */,
+				B8BFAC4513EC8F7500AC9464 /* SBJsonStreamParser.m */,
+				B8BFAC4613EC8F7500AC9464 /* SBJsonStreamParserAccumulator.h */,
+				B8BFAC4713EC8F7500AC9464 /* SBJsonStreamParserAccumulator.m */,
+				B8BFAC4813EC8F7500AC9464 /* SBJsonStreamParserAdapter.h */,
+				B8BFAC4913EC8F7500AC9464 /* SBJsonStreamParserAdapter.m */,
+				B8BFAC4A13EC8F7500AC9464 /* SBJsonStreamParserState.h */,
+				B8BFAC4B13EC8F7500AC9464 /* SBJsonStreamParserState.m */,
+				B8BFAC4C13EC8F7500AC9464 /* SBJsonStreamWriter.h */,
+				B8BFAC4D13EC8F7500AC9464 /* SBJsonStreamWriter.m */,
+				B8BFAC4E13EC8F7500AC9464 /* SBJsonStreamWriterAccumulator.h */,
+				B8BFAC4F13EC8F7500AC9464 /* SBJsonStreamWriterAccumulator.m */,
+				B8BFAC5013EC8F7500AC9464 /* SBJsonStreamWriterState.h */,
+				B8BFAC5113EC8F7500AC9464 /* SBJsonStreamWriterState.m */,
+				B8BFAC5213EC8F7500AC9464 /* SBJsonTokeniser.h */,
+				B8BFAC5313EC8F7500AC9464 /* SBJsonTokeniser.m */,
+				B8BFAC5413EC8F7500AC9464 /* SBJsonUTF8Stream.h */,
+				B8BFAC5513EC8F7500AC9464 /* SBJsonUTF8Stream.m */,
+				B8BFAC5613EC8F7500AC9464 /* SBJsonWriter.h */,
+				B8BFAC5713EC8F7500AC9464 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		B8BFAC8813ED50A500AC9464 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				B8BFAC9D13ED533200AC9464 /* Conveniences.h */,
+				B8BFAC9E13ED533200AC9464 /* Conveniences.m */,
+				B8BFAC9F13ED533200AC9464 /* NSData+Base64.h */,
+				B8BFACA013ED533200AC9464 /* NSData+Base64.m */,
+				B8BFACA113ED533200AC9464 /* UIColor-Expanded.h */,
+				B8BFACA213ED533200AC9464 /* UIColor-Expanded.m */,
+				B8BFACA313ED533200AC9464 /* UILabel+ResizeHeight.h */,
+				B8BFACA413ED533200AC9464 /* UILabel+ResizeHeight.m */,
+				B88C4FF413FAAA430080A7A4 /* MBProgressHUD.h */,
+				B88C4FF513FAAA430080A7A4 /* MBProgressHUD.m */,
+				B88C4FF613FAAA430080A7A4 /* Reachability.h */,
+				B88C4FF713FAAA430080A7A4 /* Reachability.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8BFAB9A13EBF3FC00AC9464 /* NASCAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8BFABC413EBF3FD00AC9464 /* Build configuration list for PBXNativeTarget "NASCAR" */;
+			buildPhases = (
+				B8BFAB9713EBF3FC00AC9464 /* Sources */,
+				B8BFAB9813EBF3FC00AC9464 /* Frameworks */,
+				B8BFAB9913EBF3FC00AC9464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NASCAR;
+			productName = NASCAR;
+			productReference = B8BFAB9B13EBF3FC00AC9464 /* NASCAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8BFAB9213EBF3FC00AC9464 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B8BFAB9513EBF3FC00AC9464 /* Build configuration list for PBXProject "NASCAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B8BFAB9013EBF3FC00AC9464;
+			productRefGroup = B8BFAB9C13EBF3FC00AC9464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8BFAB9A13EBF3FC00AC9464 /* NASCAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8BFAB9913EBF3FC00AC9464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BFABAC13EBF3FD00AC9464 /* InfoPlist.strings in Resources */,
+				B8BFABB813EBF3FD00AC9464 /* MainWindow.xib in Resources */,
+				B8BFAC2E13EC875300AC9464 /* NASCAR-Prefs.plist in Resources */,
+				B8BFAC8113ECBA0600AC9464 /* VideoTVCell.xib in Resources */,
+				B8CF2CD813F1A40D0065576E /* VideoVC.xib in Resources */,
+				B88C500413FAB72B0080A7A4 /* Icon~ipad.png in Resources */,
+				B83A99C114117219001DDFE5 /* default_header_banner.png in Resources */,
+				B8113E961417CDB3008C2952 /* Icon-settings.png in Resources */,
+				B8113E971417CDB3008C2952 /* Icon-spot~ipad.png in Resources */,
+				B8113E981417CDB3008C2952 /* Icon.png in Resources */,
+				B8113EA41417D123008C2952 /* Default-Landscape~ipad.png in Resources */,
+				B8113EA51417D123008C2952 /* Default-Portrait~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8BFAB9713EBF3FC00AC9464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BFABAF13EBF3FD00AC9464 /* main.m in Sources */,
+				B8BFABB213EBF3FD00AC9464 /* NASCARAppDelegate.m in Sources */,
+				B8BFABBB13EBF3FD00AC9464 /* VideoVC.m in Sources */,
+				B8BFABC113EBF3FD00AC9464 /* RootVC.m in Sources */,
+				B8BFAC5813EC8F7500AC9464 /* FetchData.m in Sources */,
+				B8BFAC5913EC8F7500AC9464 /* FetchDataPackage.m in Sources */,
+				B8BFAC5B13EC8F7500AC9464 /* NSObject+SBJson.m in Sources */,
+				B8BFAC5C13EC8F7500AC9464 /* SBJsonParser.m in Sources */,
+				B8BFAC5D13EC8F7500AC9464 /* SBJsonStreamParser.m in Sources */,
+				B8BFAC5E13EC8F7500AC9464 /* SBJsonStreamParserAccumulator.m in Sources */,
+				B8BFAC5F13EC8F7500AC9464 /* SBJsonStreamParserAdapter.m in Sources */,
+				B8BFAC6013EC8F7500AC9464 /* SBJsonStreamParserState.m in Sources */,
+				B8BFAC6113EC8F7500AC9464 /* SBJsonStreamWriter.m in Sources */,
+				B8BFAC6213EC8F7500AC9464 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				B8BFAC6313EC8F7500AC9464 /* SBJsonStreamWriterState.m in Sources */,
+				B8BFAC6413EC8F7500AC9464 /* SBJsonTokeniser.m in Sources */,
+				B8BFAC6513EC8F7500AC9464 /* SBJsonUTF8Stream.m in Sources */,
+				B8BFAC6613EC8F7500AC9464 /* SBJsonWriter.m in Sources */,
+				B8BFAC7713ECB4F700AC9464 /* VideoTVCell.m in Sources */,
+				B8BFACA513ED533200AC9464 /* Conveniences.m in Sources */,
+				B8BFACA613ED533200AC9464 /* NSData+Base64.m in Sources */,
+				B8BFACA713ED533200AC9464 /* UIColor-Expanded.m in Sources */,
+				B8BFACA813ED533200AC9464 /* UILabel+ResizeHeight.m in Sources */,
+				B86B03B113F9BEAF0002BEB0 /* MyDataSingleton.m in Sources */,
+				B86B03B413F9BEBD0002BEB0 /* XMLParser.m in Sources */,
+				B86B03CA13F9D2F30002BEB0 /* Videos.m in Sources */,
+				B88C4FF813FAAA430080A7A4 /* MBProgressHUD.m in Sources */,
+				B88C4FF913FAAA430080A7A4 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8BFABAA13EBF3FC00AC9464 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8BFABAB13EBF3FD00AC9464 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8BFABB613EBF3FD00AC9464 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8BFABB713EBF3FD00AC9464 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B85D3BAA13F56DD700F2C778 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				BUNDLE_DISPLAY_NAME = NASCAR;
+				BUNDLE_IDENTIFIER = com.markandlori.nascar;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = AppStore;
+		};
+		B85D3BAB13F56DD700F2C778 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NASCAR/NASCAR-Prefix.pch";
+				INFOPLIST_FILE = "NASCAR/NASCAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AppStore;
+		};
+		B8BFABC213EBF3FD00AC9464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				BUNDLE_DISPLAY_NAME = "NASCAR-δ";
+				BUNDLE_IDENTIFIER = com.markandlori.nascar.debug;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B8BFABC313EBF3FD00AC9464 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				BUNDLE_DISPLAY_NAME = "NASCAR-β";
+				BUNDLE_IDENTIFIER = com.markandlori.nascar.beta;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = AdHoc;
+		};
+		B8BFABC513EBF3FD00AC9464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NASCAR/NASCAR-Prefix.pch";
+				INFOPLIST_FILE = "NASCAR/NASCAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8BFABC613EBF3FD00AC9464 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NASCAR/NASCAR-Prefix.pch";
+				INFOPLIST_FILE = "NASCAR/NASCAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8BFAB9513EBF3FC00AC9464 /* Build configuration list for PBXProject "NASCAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BFABC213EBF3FD00AC9464 /* Debug */,
+				B8BFABC313EBF3FD00AC9464 /* AdHoc */,
+				B85D3BAA13F56DD700F2C778 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AdHoc;
+		};
+		B8BFABC413EBF3FD00AC9464 /* Build configuration list for PBXNativeTarget "NASCAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BFABC513EBF3FD00AC9464 /* Debug */,
+				B8BFABC613EBF3FD00AC9464 /* AdHoc */,
+				B85D3BAB13F56DD700F2C778 /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = AdHoc;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8BFAB9213EBF3FC00AC9464 /* Project object */;
+}
