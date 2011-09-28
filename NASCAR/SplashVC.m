@@ -40,6 +40,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    if([[UIApplication sharedApplication] statusBarOrientation] == UIDeviceOrientationPortrait){
+        NSLog(@"Portrait");
+        theSplashIV.image = [UIImage imageNamed:@"Default-Portrait~ipad.png"];
+    }
+    else{
+        NSLog(@"Landscape");
+        theSplashIV.image = [UIImage imageNamed:@"Default-Landscape~ipad.png"];
+    }
 }
 
 - (void)viewDidUnload
@@ -51,13 +60,6 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    if(interfaceOrientation == UIDeviceOrientationPortrait){
-        theSplashIV.image = [UIImage imageNamed:@"Default-Portrait~ipad.png"];
-    }
-    else{
-        theSplashIV.image = [UIImage imageNamed:@"Default-Landscape~ipad.png"];
-    }
-
 	return YES;
 }
 
