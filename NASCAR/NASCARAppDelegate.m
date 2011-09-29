@@ -50,11 +50,7 @@
     
     // add the splash IV to the window per the current orientation, then animate it away
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
-	if([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortrait){
-		self.theSplashIV.image = [UIImage imageNamed:@"Default-Portrait~ipad.png"];
-        self.theSplashIV.frame = CGRectMake(0, 20, 768, 1004);
-	}
-    else if([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortraitUpsideDown){
+    if([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortraitUpsideDown){
         self.theSplashIV.image = [UIImage imageNamed:@"Default-Portrait~ipad.png"];
         self.theSplashIV.transform = CGAffineTransformMakeRotation(M_PI);
         self.theSplashIV.frame = CGRectMake(0, 0, 768, 1004);
@@ -68,13 +64,16 @@
 		self.theSplashIV.image = [UIImage imageNamed:@"Default-Landscape~ipad.png"];
         self.theSplashIV.transform = CGAffineTransformMakeRotation(M_PI / -2);
         self.theSplashIV.frame = CGRectMake(20, 0, 748, 1024);
-	}
+	} else {    // Defaults to standard Portrait orientation if the orientation can't be determined, or if the orientation is really just portrait
+        self.theSplashIV.image = [UIImage imageNamed:@"Default-Portrait~ipad.png"];
+        self.theSplashIV.frame = CGRectMake(0, 20, 768, 1004);
+    }
 	[[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
     
     [self.window addSubview:self.theSplashIV];
     
-    float delayBeforeAnimation = 2.0;
-    float speedOfAnimation = 0.25;
+    float delayBeforeAnimation = 2.25;
+    float speedOfAnimation = 0.50;
     
     [UIView animateWithDuration:speedOfAnimation
                           delay:delayBeforeAnimation
