@@ -18,6 +18,7 @@
 			<string>IBUICustomObject</string>
 			<string>IBUISplitViewController</string>
 			<string>IBUIWindow</string>
+			<string>IBUIImageView</string>
 			<string>IBUITableViewController</string>
 			<string>IBUINavigationBar</string>
 			<string>IBUINavigationItem</string>
@@ -63,18 +64,6 @@
 			</object>
 			<object class="IBUICustomObject" id="963208320">
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-			</object>
-			<object class="IBUIViewController" id="355643426">
-				<string key="IBUINibName">SplashVC</string>
-				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
-					<int key="IBUIStatusBarStyle">2</int>
-				</object>
-				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-					<int key="IBUIInterfaceOrientation">1</int>
-					<int key="interfaceOrientation">1</int>
-				</object>
-				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
-				<bool key="IBUIHorizontal">NO</bool>
 			</object>
 			<object class="IBUISplitViewController" id="214026441">
 				<reference key="IBUIToolbarItems" ref="0"/>
@@ -139,6 +128,15 @@
 					<bool key="IBUIHorizontal">NO</bool>
 				</object>
 			</object>
+			<object class="IBUIImageView" id="131462614">
+				<reference key="NSNextResponder"/>
+				<int key="NSvFlags">274</int>
+				<string key="NSFrameSize">{240, 128}</string>
+				<reference key="NSSuperview"/>
+				<reference key="NSNextKeyView"/>
+				<bool key="IBUIUserInteractionEnabled">NO</bool>
+				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+			</object>
 		</object>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<object class="NSMutableArray" key="connectionRecords">
@@ -201,11 +199,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">theSplashVC</string>
+						<string key="label">theSplashIV</string>
 						<reference key="source" ref="963208320"/>
-						<reference key="destination" ref="355643426"/>
+						<reference key="destination" ref="131462614"/>
 					</object>
-					<int key="connectionID">74</int>
+					<int key="connectionID">76</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -287,13 +285,10 @@
 						<reference key="parent" ref="641806676"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">73</int>
-						<reference key="object" ref="355643426"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-						</object>
+						<int key="objectID">75</int>
+						<reference key="object" ref="131462614"/>
 						<reference key="parent" ref="0"/>
-						<string key="objectName">SplashVC</string>
+						<string key="objectName">SplashIV</string>
 					</object>
 				</object>
 			</object>
@@ -316,8 +311,7 @@
 					<string>40.IBPluginDependency</string>
 					<string>41.IBPluginDependency</string>
 					<string>42.IBPluginDependency</string>
-					<string>73.CustomClassName</string>
-					<string>73.IBPluginDependency</string>
+					<string>75.IBPluginDependency</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -336,7 +330,6 @@
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-					<string>SplashVC</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>
 			</object>
@@ -352,7 +345,7 @@
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">74</int>
+			<int key="maxID">76</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>

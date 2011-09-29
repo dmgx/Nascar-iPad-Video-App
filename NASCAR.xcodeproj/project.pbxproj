@@ -13,8 +13,6 @@
 		B8113EA41417D123008C2952 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8113EA21417D123008C2952 /* Default-Landscape~ipad.png */; };
 		B8113EA51417D123008C2952 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B8113EA31417D123008C2952 /* Default-Portrait~ipad.png */; };
 		B83A99C114117219001DDFE5 /* default_header_banner.png in Resources */ = {isa = PBXBuildFile; fileRef = B83A99C014117219001DDFE5 /* default_header_banner.png */; };
-		B862E7521433D4E600169143 /* SplashVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B862E7501433D4E600169143 /* SplashVC.m */; };
-		B862E7531433D4E600169143 /* SplashVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B862E7511433D4E600169143 /* SplashVC.xib */; };
 		B86B03B113F9BEAF0002BEB0 /* MyDataSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = B86B03B013F9BEAF0002BEB0 /* MyDataSingleton.m */; };
 		B86B03B413F9BEBD0002BEB0 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B86B03B313F9BEBD0002BEB0 /* XMLParser.m */; };
 		B86B03CA13F9D2F30002BEB0 /* Videos.m in Sources */ = {isa = PBXBuildFile; fileRef = B86B03C913F9D2F30002BEB0 /* Videos.m */; };
@@ -64,9 +62,6 @@
 		B8113EA21417D123008C2952 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		B8113EA31417D123008C2952 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
 		B83A99C014117219001DDFE5 /* default_header_banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_header_banner.png; sourceTree = "<group>"; };
-		B862E74F1433D4E600169143 /* SplashVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashVC.h; sourceTree = "<group>"; };
-		B862E7501433D4E600169143 /* SplashVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashVC.m; sourceTree = "<group>"; };
-		B862E7511433D4E600169143 /* SplashVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashVC.xib; sourceTree = "<group>"; };
 		B86B03AF13F9BEAF0002BEB0 /* MyDataSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataSingleton.h; sourceTree = "<group>"; };
 		B86B03B013F9BEAF0002BEB0 /* MyDataSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataSingleton.m; sourceTree = "<group>"; };
 		B86B03B213F9BEBD0002BEB0 /* XMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
@@ -158,16 +153,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B862E7461433C42B00169143 /* SplashVC */ = {
-			isa = PBXGroup;
-			children = (
-				B862E74F1433D4E600169143 /* SplashVC.h */,
-				B862E7501433D4E600169143 /* SplashVC.m */,
-				B862E7511433D4E600169143 /* SplashVC.xib */,
-			);
-			name = SplashVC;
-			sourceTree = "<group>";
-		};
 		B86B03AE13F9BE7E0002BEB0 /* XML Data Stuff */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,7 +239,6 @@
 				B8BFABB013EBF3FD00AC9464 /* NASCARAppDelegate.h */,
 				B8BFABB113EBF3FD00AC9464 /* NASCARAppDelegate.m */,
 				B8BFABB613EBF3FD00AC9464 /* MainWindow.xib */,
-				B862E7461433C42B00169143 /* SplashVC */,
 				B897D12013F0028300F1B06D /* RootVC (left) */,
 				B897D12213F0029E00F1B06D /* VideoVC (right) */,
 			);
@@ -419,7 +403,6 @@
 				B8113E981417CDB3008C2952 /* Icon.png in Resources */,
 				B8113EA41417D123008C2952 /* Default-Landscape~ipad.png in Resources */,
 				B8113EA51417D123008C2952 /* Default-Portrait~ipad.png in Resources */,
-				B862E7531433D4E600169143 /* SplashVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,7 +441,6 @@
 				B86B03CA13F9D2F30002BEB0 /* Videos.m in Sources */,
 				B88C4FF813FAAA430080A7A4 /* MBProgressHUD.m in Sources */,
 				B88C4FF913FAAA430080A7A4 /* Reachability.m in Sources */,
-				B862E7521433D4E600169143 /* SplashVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

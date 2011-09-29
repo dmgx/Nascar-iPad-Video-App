@@ -20,6 +20,7 @@
 @property (nonatomic, retain) IBOutlet RootVC *myRootVC;
 @property (nonatomic, retain) IBOutlet VideoVC *myVideoVC;
 @property (nonatomic, retain) IBOutlet UIViewController *theSplashVC;
+@property (nonatomic, retain) IBOutlet UIImageView *theSplashIV;
 
 - (void)dataReceived;
 

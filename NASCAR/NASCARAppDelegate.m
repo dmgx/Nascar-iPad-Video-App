@@ -21,6 +21,7 @@
 @synthesize myRootVC = _myRootVC;
 @synthesize myVideoVC = _myVideoVC;
 @synthesize theSplashVC = _theSplashVC;
+@synthesize theSplashIV = _theSplashIV;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -47,18 +48,49 @@
     self.window.rootViewController = self.mySplitVC;
     [self.window makeKeyAndVisible];
     
-    // add the splash IV to the window per the current orientation
-    [self.window addSubview:self.theSplashVC.view];
-    [UIView animateWithDuration:0.25f
-                          delay:2.0f
+    // add the splash IV to the window per the current orientation, then animate it away
+    [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
+	if([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortrait){
+		self.theSplashIV.image = [UIImage imageNamed:@"Default-Portrait~ipad.png"];
+        self.theSplashIV.frame = CGRectMake(0, 20, 768, 1004);
+	}
+    else if([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortraitUpsideDown){
+        self.theSplashIV.image = [UIImage imageNamed:@"Default-Portrait~ipad.png"];
+        self.theSplashIV.transform = CGAffineTransformMakeRotation(M_PI);
+        self.theSplashIV.frame = CGRectMake(0, 0, 768, 1004);
+    }
+	else if([[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeLeft){
+		self.theSplashIV.image = [UIImage imageNamed:@"Default-Landscape~ipad.png"];
+        self.theSplashIV.transform = CGAffineTransformMakeRotation(M_PI / 2);
+        self.theSplashIV.frame = CGRectMake(0, 0, 748, 1024);
+	}
+    else if([[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeRight){
+		self.theSplashIV.image = [UIImage imageNamed:@"Default-Landscape~ipad.png"];
+        self.theSplashIV.transform = CGAffineTransformMakeRotation(M_PI / -2);
+        self.theSplashIV.frame = CGRectMake(20, 0, 748, 1024);
+	}
+	[[UIDevice currentDevice] endGeneratingDeviceOrientationNotifications];
+    
+    [self.window addSubview:self.theSplashIV];
+    
+    float delayBeforeAnimation = 2.0;
+    float speedOfAnimation = 0.25;
+    
+    [UIView animateWithDuration:speedOfAnimation
+                          delay:delayBeforeAnimation
                         options:UIViewAnimationOptionTransitionNone
                      animations:^{
-                         self.theSplashVC.view.frame = CGRectMake(-(self.theSplashVC.view.frame.size.width/2), -(self.theSplashVC.view.frame.size.height/2), self.theSplashVC.view.frame.size.width*2, self.theSplashVC.view.frame.size.height*2);
-                         self.theSplashVC.view.alpha = 0.0;
+                         self.theSplashIV.frame = CGRectMake(
+                                                             -(self.theSplashIV.frame.size.width),
+                                                             -(self.theSplashIV.frame.size.height),
+                                                             self.theSplashIV.frame.size.width * 3,
+                                                             self.theSplashIV.frame.size.height * 3
+                                                             );
+                         self.theSplashIV.alpha = 0.0;
                      }
                      completion:^(BOOL finished) {
-                         [self.theSplashVC.view removeFromSuperview];
-                         [self.theSplashVC release];
+                         [self.theSplashIV removeFromSuperview];
+                         [self.theSplashIV release];
                      }];
 
 
@@ -107,6 +139,7 @@
     [_myRootVC release];
     [_myVideoVC release];
     [_theSplashVC release];
+    [_theSplashIV release];
     [super dealloc];
 }
 
